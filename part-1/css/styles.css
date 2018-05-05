@@ -1,0 +1,127 @@
+/*Chris Kanyotu - Ghithub: chrispykan*/
+/*----
+Basics
+----*/
+* {
+  -webkit-font-smoothing: antialiased;
+}
+a:hover {
+  color: #455a64;
+}
+
+/*-------------
+Body typography
+-------------*/
+body {
+  font-family: "Verdana", sans-serif;
+  background-color: #fff;
+  color: #41545f;
+  margin: 0;
+  margin-top:1em;
+}
+
+/*-----
+Nav bar
+-----*/
+nav {
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  padding: 0 4em;
+  color: #789ba8;
+  font-weight: 900;
+  font-size: 1em;
+}
+
+/*----
+Header
+----*/
+header {
+  width: 100%;
+  height: 18em;
+  background-image: url("../images/blog_header_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  text-decoration: none;
+}
+header h1 {
+  padding-top: 3.75em;
+}
+h1 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+/*--------------
+Main body
+--------------*/
+main {
+  margin:0 15em;
+  padding: 2em 0;
+}
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  margin: auto;
+  padding: 1em 0;
+  line-height: 1.5em;
+}
+.about-section {
+  padding-top: 1em;
+}
+h3 {
+  padding-top: 2em;
+}
+
+/*------------------
+Image responsiveness
+------------------*/
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.about-image {
+  margin-top: 1em;
+}
+
+/*---
+Lists
+---*/
+ul {
+  padding-left: 1em;
+}
+li {
+  margin-bottom: 1em;
+}
+li a {
+  text-decoration: none;
+  color: #789ba8;
+  font-weight: 900;
+}
+
+/*----
+Footer
+----*/
+footer {
+  background-color: #c5f4f8;
+  text-align: center;
+  margin: 2em 0;
+}
+footer a {
+  color: #455a64;
+  font-size: 2em;
+  padding: 2%;
+}
+hr {
+  color: #41545f;
+  border: solid;
+  border-width: thin;
+}
+.social {
+  padding: 2em;
+}
